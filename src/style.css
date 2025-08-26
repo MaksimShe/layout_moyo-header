@@ -1,22 +1,25 @@
+:root {
+  --blue: #00acdc;
+}
+
 body {
   margin: 0;
 }
 
-header {
-  font-family: Roboto, sans-serif;
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_menu {
   font-size: 12px;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-style: normal;
   text-transform: uppercase;
-  display: flex;
-  justify-content: sdipace-between;
-  height: 60px;
-}
-
-.__nav_menu {
-  background-color: #fff;
   justify-content: right;
   margin-right: 50px;
+  height: 60px;
 }
 
 .picture {
@@ -56,10 +59,11 @@ header {
 
 .link:hover {
   color: #00acdc;
+  text-align: center;
 }
 
 .is-active {
-  color: #00acdc;
+  color: var(--blue);
 }
 
 .is-active::after {
@@ -69,6 +73,6 @@ header {
   bottom: 0;
   width: 100%;
   height: 4px;
-  background: #00acdc;
+  background: var(--blue);
   border-radius: 8px;
 }
