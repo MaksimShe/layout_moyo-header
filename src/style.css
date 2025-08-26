@@ -1,21 +1,15 @@
-@font-face {
-  font-family: Roboto, sans-serif;
-  src: url('../references/Roboto.ttf') format('truetype');
-}
-
 body {
   margin: 0;
 }
 
 header {
   font-family: Roboto, sans-serif;
-  font-weight: 500;
   font-size: 12px;
-  line-height: 100%;
-  letter-spacing: 0%;
+  font-weight: 500;
+  font-style: normal;
   text-transform: uppercase;
   display: flex;
-  justify-content: space-between;
+  justify-content: sdipace-between;
   height: 60px;
 }
 
