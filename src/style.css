@@ -62,11 +62,6 @@ header {
 
 .link:hover {
   color: #00acdc;
-  text-align: center;
-}
-
-.options li:nth-child(4) .link {
-  color: #00acdc;
 }
 
 .is-active {
